@@ -1,0 +1,50 @@
+{
+  "name": "poc-sts-federation",
+  "version": "1.0.0",
+  "description": "AWS STS federation proof of concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "linter": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashdalfTheGray/poc-sts-federation.git"
+  },
+  "keywords": [
+    "aws",
+    "sts",
+    "assumeRole"
+  ],
+  "author": "Yash Kulshrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YashdalfTheGray/poc-sts-federation/issues"
+  },
+  "homepage": "https://github.com/YashdalfTheGray/poc-sts-federation#readme",
+  "dependencies": {
+    "aws-sdk": "^2.518.0",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^2.7.0",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
