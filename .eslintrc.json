@@ -14,7 +14,8 @@
   },
   "rules": {
     "linebreak-style": ["off"],
-    "max-len": ["warn", 120],
-    "object-shorthand": ["error", "consistent-as-needed"]
+    "max-len": ["off"],
+    "object-shorthand": ["error", "consistent-as-needed"],
+    "no-console": ["off"]
   }
 }
