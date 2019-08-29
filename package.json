@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/YashdalfTheGray/poc-sts-federation#readme",
   "dependencies": {
-    "aws-sdk": "^2.518.0",
+    "aws-sdk": "^2.519.0",
     "dotenv": "^8.1.0"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
-    "husky": "^2.7.0",
+    "husky": "^3.0.4",
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2"
   },
