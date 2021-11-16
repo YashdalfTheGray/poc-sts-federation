@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/YashdalfTheGray/poc-sts-federation#readme",
   "dependencies": {
-    "aws-sdk": "^2.519.0",
+    "aws-sdk": "^2.814.0",
     "chalk": "^2.4.2",
     "dotenv": "^8.1.0",
     "request": "^2.88.0",
